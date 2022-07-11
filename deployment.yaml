@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: flask-hello
-          image: shivammitra/flask-hello-world:latest
+          image: melvingnz/flask-hello-world:latest
   replicas: 3
   selector: 
     matchLabels:
